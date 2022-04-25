@@ -13,7 +13,7 @@ a{
     overflow: hidden;
     border: 1px solid rgba(9, 0, 0, 0.192);
     height: 100%;
-    width: 700px;
+    width: 600px;
     margin: auto;
     /* display: block; */   
     /* border: none; */
@@ -151,7 +151,7 @@ footer{
     overflow: hidden;
 
     height: 100%;
-    width: 700px;
+    width: 600px;
     margin: auto;
   
     justify-content: center;
