@@ -1,0 +1,175 @@
+*{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;;
+}
+a{
+    color: #1a73e8;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+#container{
+    display: flex;
+
+    overflow: hidden;
+    border: 1px solid rgba(9, 0, 0, 0.192);
+    height: 100%;
+    width: 700px;
+    margin: auto;
+    /* display: block; */   
+    /* border: none; */
+    margin-top: 3%;
+    border-radius:10px ;
+    padding: 10px;
+    padding: 30px 25px 25px;
+    justify-content: center;
+    flex-wrap: wrap; 
+   
+    
+}
+#logo img{
+    height: 25px;
+    width: 80px; 
+    margin: 20px 5px;
+}   
+.h1-primary{
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-top: 0%;
+}
+.email{
+
+}
+.email p{
+    margin: 0%;
+    font-size: small;
+}
+.link1{
+    margin-top:10px;
+}
+.link1 a{
+    text-decoration: none;
+    
+}
+.passwd{
+    margin-top: 30px;
+}
+.passwd p{
+    margin: 2%;
+    font-size: small;
+}
+.check{
+    /* margin-top: 3%; */
+}
+#instead{
+    margin: 15% 0%;
+}
+#instead button{
+    margin-left: 35%;
+    height: 35px;
+    width: 100px;
+    font-size: medium;
+    color:white;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+}
+#instead button a{
+    color:white;
+}
+
+
+   
+#instead button:hover{
+
+    height: 35px;
+    width: 100px;
+    font-size: medium;
+    color:white;
+    background-color: #004eb4;
+    border: none;
+    border-radius: 5px;
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 35%;  
+    height: 100%;    
+    flex-wrap: wrap;
+    color: rgb(49, 50, 50);
+    /* padding: 10%; */
+   
+}
+.image img{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    width: 90%;
+    height: 100%;
+    align-items: center ;
+}
+.image p{
+    word-wrap: normal;
+    text-align: center;
+    align-items: center ;
+}
+
+input[type=text] {
+    border: none;
+    border-radius: 2px;
+    outline: 1px solid rgb(188, 188, 188);
+    height: 30px;
+
+    padding-left: 10px;
+    width: 45%;
+}
+
+input[type=password] {
+    border: none;
+    border-radius: 2px;
+    outline: 1px solid rgb(188, 188, 188);
+    height: 30px;
+    width: 45%;
+    
+    padding-left: 10px;
+}
+
+input[type=email] {
+    border: none;
+    border-radius: 2px;
+    outline: 1px solid rgb(188, 188, 188);
+    height: 30px;
+    width:95%;
+    margin-top: 10%;
+    padding-left: 10px;
+}
+footer{
+    display: flex;
+
+
+    overflow: hidden;
+
+    height: 100%;
+    width: 700px;
+    margin: auto;
+  
+    justify-content: center;
+    flex-wrap: wrap; 
+    justify-content:space-between ;
+}
+footer #lenguage{
+    border: none;
+}
+footer .help {
+    
+    display: flex;
+}
+footer .help  p{
+    
+    padding: 5px;
+}
+input#check-box{
+    width: 20px;
+    height:20px;
+}

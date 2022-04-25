@@ -1,0 +1,83 @@
+#container{
+    display: flex;
+
+    /* overflow: hidden; */
+   
+    height: 100%;
+    width: 100%;   
+    /* margin: auto; */
+    /* display: block; */
+    border: none;
+    margin-top: 3%;
+    flex-direction: column;
+    
+    padding:7% 3%; 
+    /* flex-wrap: wrap;  */
+    
+    
+}
+footer{
+    display: flex;
+
+    overflow: hidden;
+    padding: 5%;
+    height: 100%;
+    width: 80%;
+    /* margin: auto; */
+    /* display: block; */
+    border: none;
+    margin-top: 3%;
+    flex-direction: row;
+}
+
+input[type=text] {
+    border: none;
+    border-radius: 2px;
+    outline: 1px solid rgb(188, 188, 188);
+    height: 30px;
+    width: 80%;
+    margin: 3% 1% ;
+    padding-left: 10px;
+}
+.image{
+    display: none;
+}
+
+
+input[type=password] {
+    border: none;
+    border-radius: 2px;
+    outline: 1px solid rgb(188, 188, 188);
+    height: 30px;
+    margin: 3% 1%;
+    width: 80%;
+    padding-left: 10px;
+}
+#instead{
+    display: flex   ;
+    flex-wrap: wrap;
+    
+    
+
+
+
+
+justify-content: space-between;
+    margin: 5% 3%;
+}
+#instead a{
+    margin: 20px;
+}
+#instead button{
+        margin: 20px;
+}
+
+input[type=email] {
+    border: none;
+    border-radius: 2px;
+    outline: 1px solid rgb(188, 188, 188);
+    height: 30px;
+    margin: 3% 1%;
+    width: 80%;
+    padding-left: 10px;
+}
