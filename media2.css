@@ -1,0 +1,17 @@
+#container{
+    display: flex;
+
+    overflow: hidden;
+    border: 1px solid rgba(9, 0, 0, 0.192);
+ 
+    /* display: block; */   
+    /* border: none; */
+    
+    justify-content: center;
+    flex-wrap: wrap; 
+   
+    
+}
+.image{
+    display: none;
+}
