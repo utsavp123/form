@@ -6,70 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Form</title>
+    <script src="validation.js"></script>
     <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" media="screen and (max-width:875px)" href="media2.css">
     <link rel="stylesheet" media="screen and (max-width:599px)" href="media.css">
 </head>
-
+ 
 <body>
-    <div id="container">
-        <div class="con">
-            <div id="logo">
-                <img src="logo.png">
-            </div>
-            <p class="h1-primary ">Create your Google Account</p>
-            <div class="name">
+    <form action="#">
+        <div id="container">
+            <div class="con">
+                <div id="logo">
+                    <img src="logo.png">
+                </div>
+                <p class="h1-primary ">Create your Google Account</p>
+                <div class="name">
+                    <div class="flex">
 
-                <input type="text" placeholder="First name">
-                <!-- <div jsname="XmnwAc" class="OabDMe cXrdqd Y2Zypf" style="transform-origin: 119.2px center;"></div> -->
-                <input type="text" placeholder="Last name">
-            </div>
-            <div class="email">
-                <input type="email" placeholder="Username">
-                <p>You can use letters, numbers & periods</p>
-            </div>
-            <div class="link1">
-                <a href="#">Use my current email address instead</a>
-            </div>
-            <div class="passwd">
+                        <input type="text" id="Fname" name="Fname" onchange="upper()" placeholder="First name">
+                        <input type="text" id="Lname" name="Lname" onchange="upper()" placeholder="Last name">
+                    </div>
+                    <span  id="validName">
+                        Enter first name and surname
+                    </span>
+                </div>
 
-                <input type="password" name="pass" placeholder="Password">
-                <!-- <label for="pass">Password</label> -->
+                <div class="email">
+                    <input type="email" name="Email" onchange="upper()" id="Email" placeholder="Username">
+                    <span id="validEmail">  
+                        Choose a Gmail address
+                    </span>
+                    <p id="a1">You can use letters, numbers & periods </p>
+                </div>
+                <div class="link1">
+                    <a href="#">Use my current email address instead</a>
+                </div>
+                <div class="passwd">
+                    <div class="flex">
 
-                <input type="password" placeholder="Confirm">
-                <p>Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                        <input type="password"  name="pass" id="pass"placeholder="Password">
+                        <input type="password"  name="pass1" id="pass1" placeholder="Confirm">
+                    </div>
+                    <span id="validPass">
+                          Enter a password
+                    </span>
+                    <span id="samePss">Those passwords didn’t match. Try again.</span>
+                    <span id="validPass1">Use 8 or more characters with a mix of letters, numbers & symbols</span>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="check-box" onclick="myCheck()">
+                    <label for="check-box">Show password</label>
+                </div>
+                <div id="instead" class="link1">
+                    <a href="#">Sign in instead</a>
+                    <button type="button" onclick="myFunction()">NEXT</button>
+                </div>
             </div>
-            <div class="check">
-                <input type="checkbox" id="check-box">
-                <label for="check-box">Show password</label>
-            </div>
-            <div id="instead" class="link1">
-                <a href="#">Sign in instead</a>
-                <button><a href="#">Next</a></button>
+            <div class="image">
+
+                <img src="download.svg" alt="">
+                <p>One account. All of Google working for you.</p>
             </div>
         </div>
-        <div class="image">
-
-            <img src="download.svg" alt="">
-            <p>One account. All of Google working for you.</p>
-        </div>
-    </div>
-    <footer>
+        <footer>
 
 
-        <select id="lenguage" name="lenguage">
-            <option value="English">‪English (United Kingdom)‬</option>
-            <option value="Gujarati">Gujarati</option>
-            <option value="Hindi">Hindi</option>
-            <option value="Marathi">Marathi</option>
-        </select>
-        <div class="help">
-            <p>Help</p>
-            <p>Privacy</p>
-            <p>Terms</p>
-        </div>
-    </footer>
-    
+            <select id="lenguage" name="lenguage">
+                <option value="English">‪English (United Kingdom)‬</option>
+                <option value="Gujarati">Gujarati</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Marathi">Marathi</option>
+            </select>
+            <div class="help">
+                <p>Help</p>
+                <p>Privacy</p>
+                <p>Terms</p>
+            </div>
+        </footer>
+    </form>
+
 
 </body>
 

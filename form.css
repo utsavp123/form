@@ -42,7 +42,7 @@ a {
     margin-top: 0%;
 }
 
-.email {
+.email #a1 {
     color: rgb(94, 93, 93);
 
 }
@@ -62,12 +62,12 @@ a {
 
 }
 
-.passwd {
+.passwd #p1  {
     color: rgb(94, 93, 93);
     margin-top: 10px;
 }
 
-.passwd p {
+.passwd      {
     margin: 2%;
     font-size: .8rem;
 }
@@ -154,22 +154,32 @@ label {
     transition: .333s ease top, .333s ease opacity;
 }
 
-input[type=password] {
+input[type=password], #pass {
+    /* border: none;
+    border-radius: 2px;
+    outline: 1px solid rgb(188, 188, 188);
+    height: 33px;
+    margin-right: 2%;
+    margin-top: 10%; */
     border: none;
     border-radius: 2px;
     outline: 1px solid rgb(188, 188, 188);
     height: 33px;
     margin-right: 2%;
-    margin-top: 10%;
+    margin-top: 3%;
 
     padding-left: 10px;
     width: 44%;
+
+    /* padding-left: 10px;
+    width: 44%;
     -webkit-transition: .333s ease top, .333s ease opacity;
-    transition: .333s ease top, .333s ease opacity;
+    transition: .333s ease top, .333s ease opacity; */
 
 
 
 }
+
 
 input[type=email] {
     border: none;
@@ -213,6 +223,15 @@ footer .help p {
 input#check-box {
     width: 18px;
     height: 18px;
+}
+span{
+    margin-top:5px ;
+    color: red;
+    font-size: 0.8rem;
+   display: none;
+}
+.flex{
+    display: flex;
 }
 
 
