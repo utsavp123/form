@@ -1,13 +1,15 @@
-*{
-    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;;
+* {
+    font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+    ;
 }
-a{
-    color: #1a73e8;
-    font-size: 0.9rem;
+
+a {
+    color: #006eff;
+    font-size: 0.75rem;
     font-weight: bold;
 }
 
-#container{
+#container {
     display: flex;
 
     overflow: hidden;
@@ -15,141 +17,171 @@ a{
     height: 100%;
     width: 700px;
     margin: auto;
-    /* display: block; */   
+    /* display: block; */
     /* border: none; */
     margin-top: 3%;
-    border-radius:10px ;
-    padding: 10px;
-    padding: 30px 25px 25px;
-    justify-content: center;
-    flex-wrap: wrap; 
-   
-    
+    border-radius: 10px;
+    padding: 20px 20px;
+    /* padding: 30px 25px 25px; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
 }
 
-#logo img{
+
+#logo img {
     height: 25px;
-    width: 80px; 
+    width: 80px;
     margin: 20px 5px;
-}   
-.h1-primary{
+}
+
+.h1-primary {
     font-family: sans-serif;
     font-size: x-large;
     margin-top: 0%;
 }
-.email{
+
+.email {
     color: rgb(94, 93, 93);
-    
+
 }
-.email p{
+
+.email p {
     margin: 2% 3%;
-    
+
     font-size: small;
 }
-.link1{
-    margin-top:10px;
+
+.link1 {
+    margin-top: 10px;
 }
-.link1 a{
+
+.link1 a {
     text-decoration: none;
-    
+
 }
-.passwd{
+
+.passwd {
     color: rgb(94, 93, 93);
     margin-top: 10px;
 }
-.passwd p{
+
+.passwd p {
     margin: 2%;
-    font-size: small;
+    font-size: .8rem;
 }
-.check label{
-    /* margin-top: 3%; */
-    font-size: small;
+
+.check label {
+    margin-left: 2%;
+    font-size: .9rem;
 }
-#instead{
-    margin: 15% 0%;
+
+#instead {
+    margin: 12% 0%;
 }
-#instead button{
+
+#instead button {
     margin-left: 35%;
     height: 35px;
     width: 100px;
     font-size: medium;
-    color:white;
+    color: white;
     background-color: #1a73e8;
     border: none;
     border-radius: 5px;
 }
-#instead button a{
-    color:white;
+
+#instead button a {
+    color: white;
 }
 
 
-   
-#instead button:hover{
+
+#instead button:hover {
 
     height: 35px;
     width: 100px;
     font-size: medium;
-    color:white;
+    color: white;
     background-color: #004eb4;
     border: none;
     border-radius: 5px;
 
 }
-.image{
+
+.image {
     display: flex;
     justify-content: center;
     margin-top: 10%;
-    width: 35%;  
-    height: 100%;    
+    width: 35%;
+    height: 100%;
     flex-wrap: wrap;
     color: rgb(49, 50, 50);
     /* padding: 10%; */
-   
+
 }
-.image img{
+
+.image img {
     display: flex;
     justify-content: center;
     margin-top: 5%;
     width: 90%;
     height: 100%;
-    align-items: center ;
+    align-items: center;
 }
-.image p{
+
+.image p {
     word-wrap: normal;
     text-align: center;
-    align-items: center ;
+    align-items: center;
 }
 
 input[type=text] {
     border: none;
     border-radius: 2px;
     outline: 1px solid rgb(188, 188, 188);
-    height: 30px;
+    height: 33px;
+    margin-right: 2%;
+    margin-top: 3%;
 
     padding-left: 10px;
-    width: 45%;
+    width: 44%;
+}
+
+label {
+    -webkit-transition: .333s ease top, .333s ease opacity;
+    transition: .333s ease top, .333s ease opacity;
 }
 
 input[type=password] {
     border: none;
     border-radius: 2px;
     outline: 1px solid rgb(188, 188, 188);
-    height: 30px;
-    width: 45%;
-    
+    height: 33px;
+    margin-right: 2%;
+    margin-top: 10%;
+
     padding-left: 10px;
+    width: 44%;
+    -webkit-transition: .333s ease top, .333s ease opacity;
+    transition: .333s ease top, .333s ease opacity;
+
+
+
 }
 
 input[type=email] {
     border: none;
     border-radius: 2px;
     outline: 1px solid rgb(188, 188, 188);
-    height: 30px;
-    width:95%;
-    margin-top: 10%;
+    height: 35px;
+    width: 95%;
+    margin-top: 6%;
     padding-left: 10px;
 }
-footer{
+
+footer {
     display: flex;
 
 
@@ -158,23 +190,30 @@ footer{
     height: 90%;
     width: 700px;
     margin: auto;
-  
+
     justify-content: center;
-    flex-wrap: wrap; 
-    justify-content:space-between ;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-footer #lenguage{
+
+footer #lenguage {
     border: none;
 }
+
 footer .help {
-    
+    font-size: small;
     display: flex;
 }
-footer .help  p{
-    
+
+footer .help p {
+
     padding: 5px;
 }
-input#check-box{
-    width: 15px;
-    height:15px;
+
+input#check-box {
+    width: 18px;
+    height: 18px;
 }
+
+
+
