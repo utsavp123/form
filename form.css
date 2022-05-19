@@ -154,7 +154,7 @@ label {
     transition: .333s ease top, .333s ease opacity;
 }
 
-input[type=password], #pass {
+input[type=password] {
     /* border: none;
     border-radius: 2px;
     outline: 1px solid rgb(188, 188, 188);
@@ -165,7 +165,7 @@ input[type=password], #pass {
     border-radius: 2px;
     outline: 1px solid rgb(188, 188, 188);
     height: 33px;
-    margin-right: 2%;
+  
     margin-top: 3%;
 
     padding-left: 10px;
@@ -232,6 +232,7 @@ span{
 }
 .flex{
     display: flex;
+    justify-content: space-between;
 }
 
 
