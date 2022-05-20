@@ -17,6 +17,7 @@ function myFunction() {
     let pass = document.querySelector("#pass");
     let pass1 = document.querySelector("#pass1");
     if (!pass.value || !pass1.value) {
+        document.getElementById("samePss").style.display = 'none';
         document.getElementById("validPass1").style.display = 'none';
         document.getElementById("validPass").style.display = 'block';
     }
@@ -37,7 +38,6 @@ function myFunction() {
             }
             else {
                 document.getElementById("validPass1").style.display = 'block';
-
             }
         }
     } else {
@@ -95,12 +95,12 @@ function abc1() {
             break;
         }
     }
-}
+}   
 
 function abc() {
 
     for (i = 0; i < pass.value.length; i++) {
-        console.log(pass.value.charAt(i));
+        
         if ((pass.value.charCodeAt(i) > 32 && pass.value.charCodeAt(i) <= 47) || (pass.value.charCodeAt(i) >= 58 && pass.value.charCodeAt(i) <= 64) || (pass.value.charCodeAt(i) >= 91 && pass.value.charCodeAt(i) <= 96)
             || (pass.value.charCodeAt(i) >= 123 && pass.value.charCodeAt(i) <= 126)) {
             document.getElementById("validPass1").style.display = 'none';
